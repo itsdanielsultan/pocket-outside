@@ -15,6 +15,8 @@ The alternative [`onnx-community/all-MiniLM-L6-v2-ONNX`](https://huggingface.co/
 
 Install using `npm install --save-exact @huggingface/transformers@3.8.1`. A Vite build resolves the module Worker in `lib/semantic.js`; no application server, inference API, key, account or paid service is involved.
 
+The project overrides the unused Node image/proxy dependencies to fixed `sharp@0.35.5` and `onnxruntime-node@1.30.0` releases. The browser model and WASM runtime stay pinned as above. The October9 package audit reports zero vulnerabilities after these overrides; the build and six tests pass.
+
 ## Integration
 
 ```js

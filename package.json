@@ -10,5 +10,6 @@
     "test": "node --test tests/*.test.mjs"
   },
   "dependencies": { "@huggingface/transformers": "3.8.1" },
+  "overrides": { "onnxruntime-node": "1.30.0", "sharp": "0.35.5" },
   "devDependencies": { "vite": "8.3.4" }
 }
