@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Find a small reason to go outside in Mississauga. Match a nature preference to official park information, then print a short plan.">
+  <title>Pocket Outside — a small outdoor break</title>
+</head>
+<body>
+  <a class="skip" href="#park-plan">Skip to your outside plan</a>
+  <div class="page">
+    <header class="header">
+      <a class="brand" href="./">Pocket Outside</a>
+      <a href="#about" id="about-link">About the matching</a>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="heading">
+        <h1 id="heading">Pick a small reason to go outside.</h1>
+        <p>Describe the kind of break you want. Take the plan with you.</p>
+      </section>
+      <div class="workspace">
+        <section class="chooser" aria-label="Choose an outdoor break">
+          <form id="match-form">
+            <label class="question" for="preference">What sounds good?</label>
+            <textarea id="preference" name="preference" maxlength="400" rows="4" required>I want trees and a quiet place beside the river.</textarea>
+            <label class="time-label" for="time">Time outside</label>
+            <select id="time" name="time" aria-describedby="time-note">
+              <option value="15">15 minutes</option>
+              <option value="30" selected>30 minutes</option>
+              <option value="60">60 minutes</option>
+            </select>
+            <p id="time-note" class="small">Your time choice shapes the activity, not a route estimate.</p>
+            <button id="find" class="primary" type="submit">Find a place.</button>
+            <p id="status" class="small status" role="status" aria-live="polite">Ready to match in your browser.</p>
+          </form>
+          <section class="alternatives" aria-labelledby="alternatives-heading">
+            <h2 id="alternatives-heading">Other places to consider</h2>
+            <ul id="other-places"></ul>
+          </section>
+        </section>
+        <article id="park-plan" class="plan" tabindex="-1" aria-labelledby="park-name">
+          <h2 class="plan-label">Your outside plan</h2>
+          <h3 id="park-name"></h3>
+          <p id="park-description" class="description"></p>
+          <div class="activity">
+            <h4 id="activity-heading">A simple 30-minute break</h4>
+            <ol><li id="activity-first"></li><li>Pause somewhere comfortable, then head back when you are ready.</li></ol>
+          </div>
+          <p class="check-note">Check the official page before you go. Conditions and access can change.</p>
+          <details class="access-notes" id="access-notes">
+            <summary>Access notes</summary>
+            <p id="source-notes"></p>
+          </details>
+          <div class="plan-actions">
+            <button type="button" id="print" class="secondary">Print this plan</button>
+            <a id="official" target="_blank" rel="noopener noreferrer">Official park page</a>
+          </div>
+          <p id="checked" class="small checked"></p>
+        </article>
+      </div>
+      <section id="about" class="about" hidden aria-labelledby="about-heading">
+        <h2 id="about-heading">About the matching</h2>
+        <p>A small open model compares the meaning of your description with eight park descriptions. It chooses from checked information; it does not write new park facts or routes.</p>
+        <p>Matching happens in this browser. Your description is not sent to a model service or stored by this app. First use downloads about 50 MB of public model and runtime files from Hugging Face and jsDelivr. Those hosts receive normal download requests. Later matching uses the loaded model.</p>
+        <p>Park information is linked to City of Mississauga and Credit Valley Conservation sources. Check their current access notices and conditions before visiting. No particular route is rated for accessibility.</p>
+        <p><a href="https://huggingface.co/Xenova/all-MiniLM-L6-v2" target="_blank" rel="noopener noreferrer">Matching model</a> <span aria-hidden="true">·</span> <a href="https://huggingface.co/docs/transformers.js/v3.8.1/en/index" target="_blank" rel="noopener noreferrer">Open-source library</a></p>
+        <button class="text-button" type="button" id="close-about">Close this explanation</button>
+      </section>
+    </main>
+    <footer>Your description stays in this browser. First use downloads the matching model.</footer>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

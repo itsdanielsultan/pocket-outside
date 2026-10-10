@@ -1,0 +1,14 @@
+{
+  "name": "pocket-outside",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4193 --strictPort",
+    "build": "vite build --base=./",
+    "preview": "vite preview --host 127.0.0.1 --port 4193 --strictPort",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": { "@huggingface/transformers": "3.8.1" },
+  "devDependencies": { "vite": "8.3.4" }
+}

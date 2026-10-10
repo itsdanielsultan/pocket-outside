@@ -1,0 +1,90 @@
+[
+  {
+    "id": "erindale",
+    "name": "Erindale Park",
+    "description": "Trails beside the Credit River give you views of the water and ravines, with places to watch birds and notice nature.",
+    "tags": ["river", "trails", "ravines", "birdwatching"],
+    "sourceUrl": "https://www.mississauga.ca/events-and-attractions/parks/erindale-park/",
+    "sourceTitle": "Erindale Park — City of Mississauga",
+    "checkedDate": "2026-10-09",
+    "suggestedActivity": "Walk an open trail and pause to notice three different sounds near the river.",
+    "sourceNotes": "The Riverside-to-island bridge is closed. Follow the posted detour and check https://www.mississauga.ca/projects-and-strategies/city-projects/parks-trails-and-bridges-closed-for-repair/ before choosing a path."
+  },
+  {
+    "id": "rattray-marsh",
+    "name": "Rattray Marsh Conservation Area",
+    "description": "A Lake Ontario wetland with a pedestrian boardwalk, a shale shoreline and opportunities for birdwatching.",
+    "tags": ["wetland", "boardwalk", "waterfront", "birdwatching"],
+    "sourceUrl": "https://cvc.ca/discover-our-parks/rattray-marsh/",
+    "sourceTitle": "Rattray Marsh Conservation Area — Credit Valley Conservation",
+    "checkedDate": "2026-10-09",
+    "suggestedActivity": "Pause on a permitted boardwalk section and watch the marsh without feeding or approaching wildlife.",
+    "sourceNotes": "CVC lists free entry and parking only at Jack Darling Memorial Park. Cycling is not permitted through the marsh. The October 9 advisory lists the park open during operating hours; check https://cvc.ca/park-advisories/ for changes before visiting. Stay on designated trails."
+  },
+  {
+    "id": "lakefront-promenade",
+    "name": "Lakefront Promenade",
+    "description": "A waterfront pathway and sand beach give you places to spend time beside Lake Ontario.",
+    "tags": ["waterfront", "pathway", "lake", "beach"],
+    "sourceUrl": "https://www.mississauga.ca/events-and-attractions/parks/lakefront-promenade/",
+    "sourceTitle": "Lakefront Promenade — City of Mississauga",
+    "checkedDate": "2026-10-09",
+    "suggestedActivity": "Follow part of the waterfront pathway and stop to sketch the shape of the shoreline.",
+    "sourceNotes": "This suggestion is for walking on land. The City says the beach is unsupervised and swimming access depends on water quality. Check the official page for current conditions and facility information."
+  },
+  {
+    "id": "jack-darling",
+    "name": "Jack Darling Memorial Park",
+    "description": "A waterfront park with a paved section of the Waterfront Trail and a native tallgrass prairie that supports pollinators.",
+    "tags": ["waterfront", "trails", "prairie", "pollinators"],
+    "sourceUrl": "https://www.mississauga.ca/events-and-attractions/parks/jack-darling-memorial-park/",
+    "sourceTitle": "Jack Darling Memorial Park — City of Mississauga",
+    "checkedDate": "2026-10-09",
+    "suggestedActivity": "Walk the waterfront path, then look at the prairie from an existing path and notice the different plant shapes.",
+    "sourceNotes": "Plants and pollinators vary by season. The beach is unsupervised and depends on water quality; this card suggests land-based observation. Check the official page and follow on-site notices."
+  },
+  {
+    "id": "kariya",
+    "name": "Kariya Park",
+    "description": "A Japanese garden in downtown Mississauga, with cherry and magnolia trees that bloom in spring.",
+    "tags": ["garden", "trees", "quiet", "downtown"],
+    "sourceUrl": "https://www.mississauga.ca/events-and-attractions/parks/kariya-park/",
+    "sourceTitle": "Kariya Park — City of Mississauga",
+    "checkedDate": "2026-10-09",
+    "suggestedActivity": "Take a slow look around the garden and choose one tree shape to draw on your card.",
+    "sourceNotes": "Spring blossoms are seasonal and are not promised for an October visit. Check the official page and posted notices before going."
+  },
+  {
+    "id": "riverwood",
+    "name": "Riverwood",
+    "description": "A park with forest, meadows, ravines, wetlands and creeks. Its terrace garden and natural habitats offer places to notice plants and birds.",
+    "tags": ["forest", "meadow", "wetland", "garden", "birdwatching"],
+    "sourceUrl": "https://www.mississauga.ca/events-and-attractions/parks/riverwood/",
+    "sourceTitle": "Riverwood — City of Mississauga",
+    "checkedDate": "2026-10-09",
+    "suggestedActivity": "Choose an open path and compare the plants in a garden area with those in a natural area.",
+    "sourceNotes": "The City describes the MacEwan Terrace Garden and several natural habitats. This card does not rate a particular route's slope or accessibility. Check the official page and posted signs for the route that suits you."
+  },
+  {
+    "id": "meadowvale-conservation",
+    "name": "Meadowvale Conservation Area",
+    "description": "A north Mississauga park with open fields, picnic areas and trails for spending time outdoors and observing wildlife.",
+    "tags": ["trails", "fields", "picnic", "wildlife"],
+    "sourceUrl": "https://www.mississauga.ca/city-of-mississauga-news/news/mississaugas-fall-colours-begin-their-annual-display/",
+    "sourceTitle": "Mississauga’s fall colours begin their annual display — City of Mississauga",
+    "checkedDate": "2026-10-09",
+    "suggestedActivity": "Follow an open trail, then pause at a field to notice how the view changes away from the trees.",
+    "sourceNotes": "The linked City story is from October 2024 and supplies the landscape facts, not live conditions. The current park page lists public operating hours: https://www.mississauga.ca/events-and-attractions/parks/meadowvale-conservation-area/. Follow current posted notices; wildlife sightings are not guaranteed."
+  },
+  {
+    "id": "lake-aquitaine",
+    "name": "Lake Aquitaine Park",
+    "description": "Trails beside a man-made stormwater pond offer a way to spend time near water next to Meadowvale Community Centre.",
+    "tags": ["pond", "trails", "water", "walking"],
+    "sourceUrl": "https://www.mississauga.ca/events-and-attractions/parks/lake-aquitaine-park/",
+    "sourceTitle": "Lake Aquitaine Park — City of Mississauga",
+    "checkedDate": "2026-10-09",
+    "suggestedActivity": "Walk part of a pond-side trail and notice the reflections before putting your phone away.",
+    "sourceNotes": "The City identifies the waterbody as a stormwater management pond. This card does not suggest swimming, drinking the water or fishing. Check the official page and posted notices before visiting."
+  }
+]
